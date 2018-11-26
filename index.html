@@ -12,17 +12,37 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>Getting to Know You Form</h1>
         <hr>
         <form action="http://www.w3schools.com/action_page.php" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" placeholder="Bob Smith" required><br> 
+            E-mail:
+            <input type="email" name="email" placeholder="example123@hstat.org" required ><br>
 
             <!--add your own inputs below-->
-
-
+            Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female<br>
+            Grade Level: 
+            <select name="Grade level">
+                <option value="Freshmen" selected> Freshmen</option>
+                <option value="Sophomore" selected> Sophomore</option>
+                <option value="Junior" selected> Junior</option>
+                <option value="Senior" selected> Senior</option>
+            </select><br>
+            What sport(s) do you play?:
+            <input type="text" name="Sports"><br> 
+            What type of music do you listen to?:
+            <input type="checkbox" name=" Music 1" value="K-Pop"> K-Pop 
+            <input type="checkbox" name=" Music 2" value="A-pop"> American-Pop
+            <input type="checkbox" name=" Music 3" value="Country"> Country Music <br>
+            Others<br>
+            <textarea name="message"></textarea>
+            
+            
+            
 
 
 
